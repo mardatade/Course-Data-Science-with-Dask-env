@@ -3,7 +3,7 @@ channels:
   - conda-forge
 dependencies:
   - pangeo-notebook==2020.07.03
-    - numpy>=1.18.1
+  - numpy>=1.18.1
   - h5py
   - scipy>=1.3.0
   - toolz
