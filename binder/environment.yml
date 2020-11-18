@@ -34,7 +34,6 @@ dependencies:
   - dask-xgboost
   - xarray
   - hvplot
-  - notebook
   - pip
   - pip:
     - sat-search
