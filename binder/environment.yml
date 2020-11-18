@@ -3,8 +3,38 @@ channels:
   - conda-forge
 dependencies:
   - pangeo-notebook==2020.11.06
+  - numpy>=1.18.1
+  - h5py
+  - scipy>=1.3.0
+  - toolz
+  - matplotlib
+  - Pillow
+  - pandas>=1.0.1
+  - pandas-datareader
+  - pytables
+  - scikit-image>=0.15.0
+  - snakeviz
+  - ujson
+  - s3fs
+  - fastparquet
+  - cachey
+  - python-graphviz
+  - zarr
+  - bokeh=2.1.1
+  - dask-image=0.2.0
+  - dask-ml=1.6.0
+  - numba
+  - pyarrow==0.17
+  - seaborn
+  - scikit-learn=0.23
+  - nomkl
+  - bottleneck
+  - requests
+  - py-xgboost
+  - dask-xgboost
   - xarray
   - hvplot
   - pip
   - pip:
     - sat-search
+    - git+https://github.com/stv0g/nbgitpuller.git@f735265f7b2a429a17a8fab70cfd3557f060640d
