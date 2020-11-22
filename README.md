@@ -1,4 +1,5 @@
-# pangeo-binder-template
+# Binder repository for the Course on Data Science with Dask
+
 template repository for pangeo binder configuration
 
 ### How to use
